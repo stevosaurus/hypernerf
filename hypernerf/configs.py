@@ -16,7 +16,7 @@
 import dataclasses
 from typing import Any, Callable, Optional
 
-from flax import nn
+from flax.deprecated import nn
 import gin
 import immutabledict
 import jax.numpy
